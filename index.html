@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Portal</h1>
+        <div class="counters">
+            <span id="present-count">Present: 0</span>
+            <span id="absent-count">Absent: 0</span>
+            <span id="leave-count">Leave: 0</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Roll No</th>
+                    <th>Name</th>
+                    <th>Father's Name</th>
+                    <th>Age</th>
+                    <th>Class</th>
+                    <th>Present</th>
+                    <th>Absent</th>
+                    <th>Leave</th>
+                </tr>
+            </thead>
+            <tbody id="student-table-body">
+                <!-- Rows will be added dynamically here -->
+            </tbody>
+        </table>
+        <footer>
+            <p>Made by Muhammad Haseeb</p>
+        </footer>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
